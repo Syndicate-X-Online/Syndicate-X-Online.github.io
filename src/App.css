@@ -12,6 +12,28 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.NavBar {
+  height: 10vh;
+  width: 100vw;
+  background-color: #141414;
+  color: rgb(124, 38, 38);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.NavItem {
+  width: 10vw;
+  text-decoration: none;
+  color: rgb(124, 38, 38);
+}
+
+.NavItemSelected {
+  width: 10vw;
+  text-decoration: none;
+  color: rgb(124, 38, 38);
+  border-bottom: 1px solid rgb(124, 38, 38);
+}
 
 .App-header {
   background-color: #141414;
