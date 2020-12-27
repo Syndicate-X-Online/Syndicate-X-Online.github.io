@@ -9,7 +9,7 @@ function Main () {
         <div>
             <div className='App-header'>
         
-                <img src={logo}></img>
+                <img className='Logo' src={logo}></img>
                 <h3>||In Development||</h3>
             </div> 
         </div>
