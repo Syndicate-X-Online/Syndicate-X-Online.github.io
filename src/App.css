@@ -40,8 +40,18 @@
   color: rgb(226, 1, 1);
   border-bottom: 1px solid rgb(226, 1, 1);
 }
+.setWidthEighty{
+  width:80vw
+}
+
+.centerWithFlex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .App-header {
+  
   background-color: #141414;
   min-height: 100vh;
   display: flex;
@@ -49,11 +59,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(124, 38, 38);
+  color: rgb(226, 1, 1);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #660a69;
 }
 
 @keyframes App-logo-spin {

@@ -15,6 +15,7 @@ function NavBar() {
             <Link to='/' className={navState.location === '/' ? 'NavItemSelected' : 'NavItem'}>Home</Link>
             <Link to='/pso2' className={navState.location === '/pso2' ? 'NavItemSelected' : 'NavItem'}>PSO2</Link>
             <Link to='/dcuo' className={navState.location === '/dcuo' ? 'NavItemSelected' : 'NavItem'}>DCUO</Link>
+            <Link to='/streaming' className={navState.location === '/streaming' ? 'NavItemSelected' : 'NavItem'}>Streaming</Link>
             <Link to='/about' className={navState.location === '/about' ? 'NavItemSelected' : 'NavItem'}>About Us</Link>
         </nav>
     )
